@@ -1,0 +1,129 @@
+[{
+  "_id": {
+    "$oid": "645d3f5c34e2b5dfb08d0205"
+  },
+  "Name": "Macbook air(m2)",
+  "Category": "Laptops",
+  "Details": "The MacBook Air M2 is a hypothetical model of the MacBook Air that has not yet been released. However, it is rumored that Apple is working on an updated version of the MacBook Air that will feature an M2 chip, which would be a successor to the M1 chip that currently powers the MacBook Air",
+  "StoreAddress": "abc store",
+  "CreatedBy": {
+    "$oid": "645d3eef34e2b5dfb08d01f9"
+  },
+  "Status": "Traded",
+  "offerName": "iphone14",
+  "Saved": false,
+  "Offered": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645d3f9434e2b5dfb08d0208"
+  },
+  "Name": "Macbook air(m1)",
+  "Category": "Laptops",
+  "Details": "The MacBook Air M1 is a laptop computer developed and produced by Apple Inc. It is the first MacBook Air model to be powered by the company realeased in 2000",
+  "StoreAddress": "abc store",
+  "CreatedBy": {
+    "$oid": "645d3eef34e2b5dfb08d01f9"
+  },
+  "Status": "Traded",
+  "offerName": "",
+  "Saved": false,
+  "Offered": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645d3fc134e2b5dfb08d020b"
+  },
+  "Name": "HP EliteBook",
+  "Category": "Laptops",
+  "Details": "The EliteBook laptops come in a variety of sizes and configurations, ranging from 13 to 17 inches in screen size, with different processor options, storage capacities, and memory configurations. Many models also feature advanced security features such as biometric authentication, secure boot, and data encryption to protect sensitive information.",
+  "StoreAddress": "abc store",
+  "CreatedBy": {
+    "$oid": "645d3eef34e2b5dfb08d01f9"
+  },
+  "Status": "Traded",
+  "offerName": "samsung gear",
+  "Saved": false,
+  "Offered": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645d400634e2b5dfb08d0211"
+  },
+  "Name": "Dell-inspiron",
+  "Category": "Laptops",
+  "Details": "The Inspiron laptops come in a variety of sizes and configurations, ranging from 11 inches to 17 inches in screen size, with different processor options, storage capacities, and memory configurations. They are designed to be affordable and accessible to a wide range of users",
+  "StoreAddress": "abc store",
+  "CreatedBy": {
+    "$oid": "645d3eef34e2b5dfb08d01f9"
+  },
+  "Status": "Available",
+  "offerName": "",
+  "Saved": false,
+  "Offered": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645d405d34e2b5dfb08d021d"
+  },
+  "Name": "iphone14",
+  "Category": "Mobile",
+  "Details": "Some of the features of the iPhone 14 include a redesigned body with a smaller notch for the front-facing camera, an under-display fingerprint sensor, an improved camera system with larger sensors and enhanced zoom capabilities, support for satellite communication for emergency situations, and a faster A16 or A17 chip for improved performance and energy efficiency.",
+  "StoreAddress": "abc store",
+  "CreatedBy": {
+    "$oid": "645d402634e2b5dfb08d0214"
+  },
+  "Status": "Traded",
+  "offerName": "",
+  "Saved": false,
+  "Offered": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645d408734e2b5dfb08d0221"
+  },
+  "Name": "iphone13",
+  "Category": "Mobile",
+  "Details": "The iPhone 13 is the latest model in Apple iPhone lineup, which was released in September 2021. Some of the key features and improvements of the iPhone 13 include: A new A15 Bionic chip for faster performance and improved energy efficiency.",
+  "StoreAddress": "abc store",
+  "CreatedBy": {
+    "$oid": "645d402634e2b5dfb08d0214"
+  },
+  "Status": "Traded",
+  "offerName": "Macbook air(m1)",
+  "Saved": false,
+  "Offered": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645d40af34e2b5dfb08d0225"
+  },
+  "Name": "oneplus nord",
+  "Category": "Mobile",
+  "Details": "The OnePlus Nord is a mid-range smartphone developed and produced by the Chinese smartphone manufacturer OnePlus. It was released in July 2020 and was marketed as a more affordable alternative to the companys flagship models.",
+  "StoreAddress": "abc store",
+  "CreatedBy": {
+    "$oid": "645d402634e2b5dfb08d0214"
+  },
+  "Status": "Available",
+  "offerName": "",
+  "Saved": false,
+  "Offered": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645d40d334e2b5dfb08d0228"
+  },
+  "Name": "samsung gear",
+  "Category": "Mobile",
+  "Details": "Samsung Gear refers to a line of wearable devices produced by the South Korean electronics company Samsung. The Gear line includes a range of smartwatches, fitness trackers, and other wearable devices.",
+  "StoreAddress": "abc store",
+  "CreatedBy": {
+    "$oid": "645d402634e2b5dfb08d0214"
+  },
+  "Status": "Traded",
+  "offerName": "",
+  "Saved": false,
+  "Offered": true,
+  "__v": 0
+}]
