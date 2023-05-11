@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>electronic gadgets</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href='/'>
+                <img src="/images/gadget.jpg" alt="describe electronic world">
+            </a>
+            <span id="header-heading">Gadget World</span>
+
+            <nav class="main-navigation">
+                <a href="/items/new">Start shopping</a>
+                <%if(!user){%>
+                <a href="/main/login" id="login">Login</a>
+                <a href="/main/signup" id="signup">Signup</a>
+                <%}else{%>
+                    <a href="/main/profile" id="profile">Profile</a>
+                    <a href="/main/logout" id="logout">logout</a>
+                    <%}%>
+            </nav>
+        </div>
+        <hr>
+        <a href="/items" id="product-available">Product Available</a>
+    </header>
+
+    <%if(successMessages.length>0){%>
+        <%successMessages.forEach(message=>{%>
+        <div class = 'success'>   <%= message%> </div>
+        <%});%>
+    <%};%>
+
+    <%if(errorMessages.length>0){%>
+        <%errorMessages.forEach(message=>{%>
+           <div class = 'error'> <%= message%> </div>
+        <%});%>
+    <%};%>

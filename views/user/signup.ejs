@@ -1,0 +1,37 @@
+<%- include('../partials/header.ejs')%>
+<div id = "login_info-content">
+  <h1 id = "h1_Signup">Sign Up and Explore </h1>
+
+  <form action="/main/signup" method="POST">
+
+    <div class = "Attributes">
+      <label for="firstName">FirstName</label>
+      <input type="text" placeholder="FirstNAME" id="firstName" name="firstName" > <br> <br>
+      </div>
+ 
+      <div class = "Attributes">
+        <label for="firName">Lat Name</label>
+        <input type="text" placeholder="lastNAME" id="lastName" name="lastName" > <br> <br>
+        </div>
+
+  <div class = "Attributes">
+  <label for="email">Email</label>
+  <input type="text" placeholder="EMAIL" id="email" name="email" required> <br> <br>
+  </div>
+
+  <div class = "Attributes">
+  <label for="password"></label>
+  <input type="password" placeholder="PASSWORD" id="password"name="password" required> <br> <br>
+</div>
+
+
+
+<div class = "Attributes">
+  <button >SignUp!</button> <br> 
+</div>
+
+
+<p id = "HaveAccount"> Already having an account?<a href="/main/login"> <b> Login!</b></a> </p>
+  </form>
+</div>
+<%- include('../partials/footer.ejs')%> 

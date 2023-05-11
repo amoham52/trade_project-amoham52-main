@@ -1,0 +1,557 @@
+html {
+    overflow: hidden;
+}
+
+header {
+    background-color: rgb(165, 42, 42);
+    height: 120px;
+    border: 15px solid rgb(165, 42, 42);
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+    margin-right: 13px;
+    float: left;
+}
+
+#header-heading {
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+    font-size: 35px;
+}
+
+.main-navigation {
+    padding-left: 850px;
+    padding-top: 5px;
+    position: relative;
+
+}
+
+.main-navigation a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 25px;
+    color: white;
+
+}
+
+.main-navigation a:hover {
+    background: linear-gradient(45deg, black, deeppink);
+    border-radius: 50px;
+}
+
+#product-available {
+    position: relative;
+    text-decoration: none;
+    background: linear-gradient(45deg, black, deeppink);
+    border-radius: 50px;
+    padding: 10px 25px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+hr {
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 5px;
+    right: 10px;
+    width: 98%;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0px;
+    width: 97%;
+    background-color: rgb(165, 42, 42);
+    border: 15px solid rgb(165, 42, 42);
+    font-weight: bold;
+}
+
+#world {
+    padding: 10px;
+
+}
+
+#About {
+    padding: 10px;
+}
+
+#Contact {
+    padding: 10px;
+}
+
+.main_section {
+    padding: 130px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    color: rgb(238, 130, 238);
+
+}
+.trade-buttons{
+    border:black;
+position:absolute;
+top:8px;
+left:470px;
+display:flex;
+}
+
+#quantity{
+    width: 50px;
+}
+
+.main_section p {
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+}
+
+/* new trade*/
+.main_section1 {
+    font-style: italic;
+    font-weight: bolder;
+    position: relative;
+    top: 50px;
+    left: 200px;
+
+}
+label {
+    text-align: right;
+    display: inline-block;
+    padding: 10px;
+    width: 300px;
+}
+
+input {
+    width: 400px;
+}
+
+input[type=text]:focus {
+    background-color: rgb(255, 165, 0);
+    outline: none;
+}
+
+#Details {
+    width: 400px;
+    height: 100px
+}
+
+#describe {
+    position: relative;
+    top: -55px;
+}
+
+
+.submit {
+    background-color: rgb(76, 175, 80);
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    position: absolute;
+    top: 270px;
+    left: 600px;
+}
+
+
+/*trade.ejs*/
+#tradeInfo{
+    position: relative;
+    top: -19px;
+    left: 20px;
+}
+#tradeInfo img{
+    height: 150px;
+    width: 150px;
+float: center;
+}
+
+#tradingbuttons{
+    position: relative;
+    bottom: 280px;
+    left:150px;
+    margin-left: 30px;
+    display: flex;
+    } 
+    #trading-buttons{
+        position: relative;
+        top:12px;
+        left:150px;
+        margin-left: 30px;
+        display: flex;
+        } 
+
+    #modifybuttons{
+        display: flex;
+        position: relative;
+        left: 20px;
+        bottom: 30px;  
+    }
+    .modifybuttons{
+        margin-right: 20px;    
+    }
+.tradingbuttons{
+    margin-right: 20px;
+}
+
+
+
+#trades-Info{
+    position: relative;
+    left: 100px;
+    color: rgb(1, 78, 45);
+    width: 100%;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+} 
+#trades-content Info{
+    margin: 10px 0;
+    list-style-type:none;
+}
+
+
+
+
+/*login signup css*/
+#login_info-content{
+    padding-left: 600px;
+    padding-top: 50px;
+    color: rgb(1, 78, 13);
+    
+}
+
+#passwd{
+    position: relative;
+    left: 20px;
+}
+#not{
+    position: relative;
+    right: 10px;
+}
+#HaveAccount{
+    position: relative;
+    left:50px;
+}
+#by{
+    font-size: 12px;
+    position: relative;
+    left: 30px;
+}
+.Attributes input{
+    border: 1px solid rgb(147, 158, 148);
+    width: 300px;
+    height: 30px;
+    position: relative;
+    right: 304px;
+}
+::placeholder{
+    text-align: center;
+}
+.below{
+    position: relative;
+    left: 60px;
+}
+.attributes button{
+    width: 310px;
+    border: 1px solid rgb(0, 128, 0);
+    background-color: rgb(0, 128, 58);
+    color: white;
+    height: 30px;
+}
+#login-content hr{
+    width: 480px;
+    color: rgb(1, 78, 1);
+    position: relative;
+    right: 300px;
+    top: 5px;
+}
+
+#h1_Signup{
+position: relative;
+right: 40px;
+bottom: 20px;
+
+}
+
+ /* About page  */
+ .AboutInfocontent, .Contact_Info-content, .message_Info-content, .errorInfo-content{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(1, 78, 10);
+ }
+
+ .about-images img{
+    height: 150px;
+    width: 150px;
+ }
+ .about-images{
+     display: inline-flex;
+     gap: 200px;
+ color: rgb(78, 78, 1);
+ position: relative;
+ top:50px;
+ }
+ 
+ /* Contact page  */
+.Contact_Info-content form{
+    position: relative;
+    right: 100px;
+}
+.Contact_Info-content label{
+    position: relative;
+   left: 60px;
+}
+.Contact_Info-content button{
+    position: relative;
+    top: -32px;
+    left: 547px;
+}
+
+.contactdata-input{
+    position: relative;
+    left: 100px;
+}
+#input_email{
+    position: relative;
+    left: 94px;
+}
+#label_email{
+    position: relative;
+    left: 75px;
+}
+#label_more{
+    font-weight: bold;
+    position: relative;
+    left: 88px;
+    bottom: 30px;
+}
+#input_more{
+    position: relative;
+    left: 94px;
+}
+
+.message_Info-content{
+    text-align: center;
+    position: relative;
+    top:80px;
+
+}
+
+
+
+#cart-content{
+    color: rgb(78, 78, 1);
+  width: 100%;
+height: 500px;
+overflow-x: hidden;
+overflow-y: scroll;
+}
+
+#cartedit-content{
+color: rgb(78, 78, 1);
+position: relative;
+top: 50px;
+left: 50px;
+}
+
+#function-buttons{
+    display: flex;
+    position: relative;
+    left: 20px;
+    /* bottom: 30px;   */
+}
+.function-buttons{
+    margin-right: 20px;    
+}
+
+.main_section1 button{
+    position: relative;
+    left: 500px;
+    bottom: 10px;
+}
+.success{
+    background: rgba(108, 192, 112, 0.7);
+    color: #ffff;
+    width: 70%;
+    text-align: center;
+    padding: 10px 10px;
+    margin-top: 20px;
+  }
+  
+  .error{
+    background: rgba(255, 102, 51, 0.7);
+    color: #ffff;
+    width: 70%;
+    text-align: center;
+    padding: 10px 10px;
+    margin-top: 20px;
+  }
+
+
+
+/*profile page*/
+#profile-page{
+    color: rgb(78, 78, 1);
+    width: 100%;
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;  
+  }
+
+
+  
+  #cart-content {
+    color: #7405A9;
+    width: 100%;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#cart-content h2 {
+    position: relative;
+    left: 100px;
+    color: #7405A9;
+    width: 100%;
+    margin-top: 50px;
+    font-style: italic;
+}
+
+#cart-content li a {
+    color: #f93104;
+    text-align: left;
+    padding-left: 100px;
+}
+
+#cartedit-content {
+    color: #7405A9;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#trades-table{
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+#offers-table{
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.function-buttons-profile {
+    display:inline-flex;
+    border-spacing: 10px;
+}
+.function-buttons-profile button{
+    font-family: sans-serif;
+    color: black;
+    background-color: #FF9680;
+    border-color: rgb(43, 1, 1);
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#Wishlist {
+    color: white;
+    position: relative;
+    bottom: 120px;
+    left: 1070px;
+}
+
+#wishlist-table{
+    display: inline-flex;
+    font-family: sans-serif;
+    word-break: normal;
+    align-content: center;
+    padding-right: 10px;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+#wishlist-table tr th td{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.success {
+    background: rgba(108, 192, 112, 0.7);
+    color: #ffff;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.error {
+    background: rgba(255, 102, 51, 0.7);
+    color: #ffff;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.watch-button button{
+    font-family: sans-serif;
+    color: black;
+    background-color: #FF9680;
+    border-color: rgb(43, 1, 1);
+    margin-bottom: 10px;
+    bottom: 23px;
+    left: 5px;
+    display: flex;
+    position: relative;
+}
+
+#newtrade-content{
+    margin-top: 20px;
+}
+
+#newtrade-content button{
+    margin-left:800px;
+    margin-top: 20px;
+}
+
+#manage-page #form {
+    display: flex;
+  }
+  
+  #form button {
+    margin: 10px;
+    position: relative;
+    left: 250px;
+    bottom: 40px;
+    font-family: sans-serif;
+    color: black;
+    background-color: #FF9680;
+    border-color: rgb(43, 1, 1);
+
+  }
+#manage-table{
+    display: inline-flex;
+    font-family: sans-serif;
+    word-break: normal;
+    align-content: center;
+    padding-right: 10px;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+#manage-page{
+   height: auto;
+   margin-bottom: 350px;
+}
+
+.trade-buttonss{
+    margin-right: 20px;
+}

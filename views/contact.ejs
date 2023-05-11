@@ -1,0 +1,31 @@
+
+<%- include('./partials/header.ejs')%>
+<div class = "Contact_Info-content">
+    <h1>Contact Us</h1>
+
+    <p>Fill out the form  <br>
+        And get to know more about our products
+    </p>
+<br>
+    <form action="/main/msg" method="get">
+
+        <label for="fname"><b>first name</b></label>
+        <input class = "contactdata-input" type="text" placeholder="FIRSTNAME" name="fname" required> <br> <br>
+        
+        <label for="lname"><b>last name</b></label>
+        <input class = "contactdata-input" type="text" placeholder="LASTNAME" name="lname" required> <br> <br>
+        
+        <label for="email" id = "label_email"><b>Email</b></label>
+        <input class = "contactdata-input" id = "input_email" type="text" placeholder="EMAIL" name="email" required> <br> <br>
+        
+        <label for="anything" id="label_more">MORE TO KNOW ANYTHING</label>
+        <textarea  id="input_more" name="anything" rows="5" cols="55">
+        </textarea>
+        
+        <div class = "button">
+        <button type="submit">Submit</button> <br> <br>
+        </div>
+
+    </form>
+</div>
+<%- include('./partials/footer.ejs')%> 

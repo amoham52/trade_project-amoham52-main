@@ -1,0 +1,27 @@
+<%- include('../partials/header.ejs')%>
+<div id = "login_info-content">
+    <h1>Login</h1>
+    <form action="/main/login" method="post">
+
+    <div class = "Attributes">
+    <label for="email"></label>
+    <input type="text" placeholder="EMAIL" name="email" > <br> <br>
+    </div>
+
+    <div class = "Attributes">
+    <label for="password"></label>
+    <input type="password" placeholder="PASSWORD" name="password" > <br> <br>
+</div>
+
+<div class = "Attributes">
+    <button type="submit">Login</button> <br> 
+</div>
+
+<div class = "below">
+    <p id = "passwd"> or Forgotten your  Password?</p>
+    <p id = "not"> Don't having any account?<a href="/main/signup"> <b> Signup!</b></a> </p>
+</div>
+
+    </form>
+</div>
+<%- include('../partials/footer.ejs')%> 
